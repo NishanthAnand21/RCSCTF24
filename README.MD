@@ -1,6 +1,6 @@
 # EncryptEdge RCSCTF
 
-This repository contains code for the EncryptEdge RCSCTF Challenge No.3
+This repository contains details and code for the EncryptEdge RCSCTF Challenge No.3 Privilage Escalation part.
 
 ## Table of Contents
 - [Introduction](#introduction)
