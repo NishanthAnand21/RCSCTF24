@@ -34,6 +34,15 @@ We are intentionally giving the permissions of python library to user, And I hav
 
 > I used VMWare Workstation
 
+
+## we need to put the hint.txt in the root home directory 
+
+> This hint.txt is used by the script (i.e Fishy.py) runned by cron as root
+
+> We can edit the script (Fishy.py) to mention the directory location in which we need to create a hint file like (youneedme.txt) to give a hint to user for exploitation.
+
+> You can modify the locations of files as per needed.
+
 ## Checking Default Python Libraries
 > To check the default Python libraries, run the following command:
 ```
