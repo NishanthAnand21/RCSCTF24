@@ -27,6 +27,10 @@ This challenge is based on the "Write Permissions on Imported Python Module"
 
 # Usage
 
+## Create a VM in any type-2 hyperviser (I used VMWare Workstation)
+> I used Ubuntu 22.04 LTS ISO image
+> I used VMWare Workstation
+
 ## Checking Default Python Libraries
 > To check the default Python libraries, run the following command:
 ```
