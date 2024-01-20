@@ -74,8 +74,9 @@ sudo nano /etc/crontab
 > Open the sudoers file in a text editor with sudo privileges:
 
 ```sudo visudo```
+
 > Add the following line at the end of the file:
-```xavir ALL=(ALL) NOPASSWD: /usr/bin/python3.10```
+```xavir ALL=(ALL) NOPASSWD: /usr/lib/python3.10```
 
 > This will allow the user xavir to run /usr/bin/python3.10 as root without being asked for a password.
 
